@@ -36,7 +36,6 @@ public class Test09 {
                 str.append(name); }
         }
         System.out.println(col.toString());
-
         Calendar cal = Calendar.getInstance();
         for (Emp name1:
             col ) {
@@ -49,9 +48,6 @@ public class Test09 {
             Date date = cal.getTime();
             String str1 = sf.format(date);
             System.out.println(str1);
-
         }
-
-
     }
 }

@@ -17,5 +17,4 @@ public class Test06 {
         List<String> arr =  Arrays.asList(str);
         System.out.println(arr);
     }
-
 }
